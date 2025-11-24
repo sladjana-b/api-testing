@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="thumbnail.png" width="500">
+  <img src="api-thumbnail1.png" width="500">
 </p>
 
 This project demonstrates a simple and clean API testing framework built using Python, Pytest, and the Requests library.
