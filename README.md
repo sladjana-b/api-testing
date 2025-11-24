@@ -50,3 +50,8 @@ This mini-framework demonstrates strong understanding of:
 -Negative scenario testing
 -Clean code & modular design
 
+<p align="center">
+  <img src="thumbnail.png" width="500">
+</p>
+
+
