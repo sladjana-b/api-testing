@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="thumbnail.png" width="500">
+</p>
+
 This project demonstrates a simple and clean API testing framework built using Python, Pytest, and the Requests library.
 The tests cover CRUD operations on the public API:
 https://api.restful-api.dev/
@@ -50,8 +54,6 @@ This mini-framework demonstrates strong understanding of:
 -Negative scenario testing
 -Clean code & modular design
 
-<p align="center">
-  <img src="thumbnail.png" width="500">
-</p>
+
 
 
