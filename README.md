@@ -4,18 +4,6 @@ https://api.restful-api.dev/
 
 The goal is to practice REST API validation, JSON structure checks, status code verification, and basic test framework design.
 
-api-testing/
-├── tests/
-│   ├── test_auth.py
-│   ├── test_users.py
-│   └── test_objects.py
-│
-├── utils/
-│   └── api_client.py
-│
-├── requirements.txt
-└── README.md
-
 Features:
 
 Custom ApiClient abstraction (GET, POST, PUT, PATCH, DELETE)
@@ -27,11 +15,7 @@ Full Pytest structure
 Easily extendable for more endpoints
 Perfect base for future automation
 
-Technology Stack
-Python 3
-Pytest
-Requests library
-REST API (public demo API)
+Technology Stack: Python 3, Pytest, Requests library, REST API (public demo API)
 
 Running the tests
 1. Create and activate a virtual environment (optional but recommended)
@@ -43,17 +27,15 @@ pip install -r requirements.txt
 pytest -v
 
 Example Test Flow
-Create an object
-Update full object (PUT)
-Patch partial data (PATCH)
-Delete object and verify 404
-Validate JSON response fields
-Check status codes (200, 201, 404)
+-Create an object
+-Update full object (PUT)
+-Patch partial data (PATCH)
+-Delete object and verify 404
+-Validate JSON response fields
+-Check status codes (200, 201, 404)
 
-Notes
-
+Notes:
 This repository is intended as a lightweight API testing practice project and a minimal test framework that can be expanded with:
-
 -fixtures
 -environment configs
 -parallel execution
@@ -61,10 +43,10 @@ This repository is intended as a lightweight API testing practice project and a 
 -test data factories
 
 This mini-framework demonstrates strong understanding of:
-API testing fundamentals
-REST operations
-Pytest project structure
-JSON validation
-Negative scenario testing
-Clean code & modular design
+-API testing fundamentals
+-REST operations
+-Pytest project structure
+-JSON validation
+-Negative scenario testing
+-Clean code & modular design
 
